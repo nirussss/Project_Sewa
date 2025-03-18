@@ -1,0 +1,359 @@
+.body {
+  font-family: Raleway;
+}
+@media screen and (max-width: 800px) {
+  .body {
+    width: 100%;
+    height: 1000px;
+  }
+}
+
+.image {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bfbfbf;
+  font-size: 2vw;
+  font-family: Texturina;
+  text-shadow: 2px 2px #000;
+}
+h3.deed {
+  margin-left: 50%;
+}
+
+.containers {
+  width: 100%;
+  /*min-height: 100vh;*/
+  height: 230vh;
+  background-color: #eee;
+}
+.containers .about {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #cc3300;
+  letter-spacing: 1px;
+  padding: 50px 0px 0px 0px;
+  text-shadow: 2px 2px #000000;
+}
+.containers .about h1:after {
+  content: "";
+  height: 2px;
+  width: 200px;
+  background-color: #222;
+  border-radius: 6px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.contents {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 30px auto;
+}
+.contents .article {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0);
+  background-color: #eee;
+  padding: 25px 25px;
+  margin-bottom: 10px;
+}
+.contents .article h2 {
+  color: #00004d;
+  line-height: 1;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000;
+}
+.contents .article p {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #004d00;
+}
+.contents .article a {
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #cc0000;
+  border-radius: 25px;
+  color: #fff;
+  border: 1px solid #cc0000;
+  letter-spacing: 1.5px;
+  margin-top: 35px;
+}
+.contents .article a:hover {
+  background-color: #fff;
+  color: #cc0000;
+  transition: 0.2s ease;
+}
+.image-section {
+  width: 100%;
+  margin: auto;
+}
+.image-section img {
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 2px 10px #000;
+}
+@media screen and (max-width: 900px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content1 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  /* .containers{
+    height: 230vh;
+    background-color: #eee;
+  } */
+}
+
+.containers .content2 {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 30px auto;
+}
+.content2 .article2 {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0);
+  background-color: #eee;
+  padding: 25px 25px;
+}
+.content2 .article2 h2 {
+  color: #00004d;
+  line-height: 0.5;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000;
+}
+.content2 .article2 p {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #26734d;
+}
+
+.containers .content1 {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 30px auto;
+}
+.content1 .article1 {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0);
+  background-color: #eee;
+  padding: 15px 15px;
+}
+.content1 .article1 h2 {
+  color: #00004d;
+  line-height: 0.5;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  text-shadow: 2px 2px 3px #000000;
+}
+.content1 .article1 ul {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1;
+  color: #330033;
+}
+.content1 .article1 ul li {
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+  padding: 0px 5px;
+  /*background-color: #cc0000;*/
+  border-radius: 25px;
+  color: #4d004d;
+  /*border: 1px solid #cc0000;*/
+  /*letter-spacing: 1px;*/
+  margin-top: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-section1 {
+  width: 100%;
+  margin: auto;
+}
+.image-section1 img {
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.containers .content1 {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /*grid-gap: 40px;*/
+  margin: 30px auto;
+}
+.content1 .article1 {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0);
+  background-color: #eee;
+  padding: 25px 25px;
+}
+
+.buttoncon {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.buttoncon img {
+  width: 100%;
+  height: 400px;
+}
+
+/* Style the button and place it in the middle of the containers/image */
+
+.buttoncon .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.con {
+  background-color: black;
+}
+
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.hand {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1.hands {
+  color: #ffff00;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 8px #000000;
+}
+h3.hands {
+  color: #39e600;
+  font-family: arial;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .article h2,
+  .article1 h2,
+  .article2 h2 {
+    font-size: 1.25rem;
+  }
+  .article p,
+  .article1 ul,
+  .article2 p {
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .image {
+    font-size: 3vw;
+    height: 40vh;
+  }
+
+  .buttoncon .btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  h1.hands {
+    font-size: 1.8rem;
+  }
+
+  h3.hands {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    height: 30vh;
+    font-size: 4vw;
+  }
+
+  h1.hands,
+  h3.hands {
+    font-size: 1rem;
+  }
+
+  .buttoncon .btn {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .article p,
+  .article1 ul,
+  .article2 p {
+    font-size: 0.9rem;
+  }
+}

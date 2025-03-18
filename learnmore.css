@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 10px 20px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.learn-more-container {
+    padding: 40px 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.learn-more-container h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+.learn-more-container section {
+    margin-bottom: 30px;
+}
+
+.learn-more-container h2 {
+    font-size: 24px;
+    color: #16a085;
+}
+
+.learn-more-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}

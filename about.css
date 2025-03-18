@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Nav Bar */
+:root {
+    --primary-color: #507DBC;
+    --primary-color-dark: #0466C8;
+    --secondary-color: #131516;
+    --text-dark: #333333;
+    --text-light: #767268;
+    --extra-light: #f8f8f8;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+
+/* About Section */
+.about-us {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(39, 90, 218);
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 60%;
+    padding-right: 30px;
+}
+
+.content h3 {
+    font-size: 24px;
+    color: rgb(29, 130, 218);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: bold; /* Make the paragraph text bold */
+    margin-bottom: 70px; /* Adds space between the paragraph and image */
+}
+
+.image-section {
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1000px) {
+    .image-section img{
+        width: 80%;
+        border-radius: 0%;
+        height: 60%;
+    }}
+@media (max-width: 850px) {
+    .image-section img{
+        width: 100%;
+        border-radius: 0%;
+        height: 60%;
+    }}

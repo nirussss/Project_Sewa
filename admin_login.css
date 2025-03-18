@@ -1,0 +1,88 @@
+:root {
+    --accent-color: #0466c8;
+    --base-color: white;
+    --text-color: #2e2b41;
+    --input-color: #f3f0ff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    background: var(--base-color);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form div {
+    display: flex;
+    align-items: center;
+  }
+  
+  form label {
+    flex-shrink: 0;
+    width: 70px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--input-color);
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--input-color);
+  }
+  
+  form input:focus {
+    border-color: var(--accent-color);
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--accent-color);
+    color: var(--base-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: var(--text-color);
+  }
+  

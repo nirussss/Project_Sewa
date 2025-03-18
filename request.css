@@ -1,0 +1,186 @@
+/* General Body Styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0a755f8f;
+}
+
+/* Form Container */
+.request-form-container {
+  width: 90%;
+  max-width: 700px;
+  background-color: #5bceb68f;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+/* Fieldset and Legend */
+fieldset {
+  border: 2px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: #60be9d;
+}
+
+legend {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #555555;
+  padding: 0 10px;
+  background: #c2c3c4;
+  border-radius: 5px;
+  border: 1px solid #e3e3e3;
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: bold;
+  color: #444444;
+  margin-bottom: 5px;
+  padding: 30px 10px 10px 10px;
+}
+
+/* Inputs and Select */
+input,
+select {
+  width: 95%;
+  height: 3rem;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #bbe2d5;
+}
+
+input:focus,
+select:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Radio Buttons */
+.radio-group {
+  display: flex;
+  align-items: center; /* Align radio buttons and labels vertically */
+  gap: 15px; /* Add space between each radio button-label pair */
+}
+
+.radio-item {
+  display: flex;
+  align-items: center; /* Ensures button aligns with text */
+  gap: 5px; /* Space between radio button and label text */
+}
+
+input[type="radio"] {
+  margin: 0; /* Remove default margin */
+  vertical-align: middle; /* Align radio button vertically with label text */
+  position: relative; /* Ensures better alignment */
+  top: 1px; /* Adjust slightly if still misaligned */
+}
+
+label {
+  font-size: 1.3rem; /* Ensure consistent label font size */
+  line-height: 1.2; /* Match the height of the radio button */
+  vertical-align: middle; /* Align text with the button */
+  margin: 0; /* Remove extra spacing around the label */
+}
+
+/* input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+label[for="male"], label[for="female"], label[for="other"] {
+    margin-right: 20px;
+    font-weight: normal;
+} */
+
+/* Submit Button */
+button {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  padding: 12px;
+  background-color: #28a745;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 10px rgba(33, 136, 56, 0.2);
+}
+
+/* Adjusting the Quantity Input */
+input[type="number"] {
+  width: 95%;
+  display: inline-block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  fieldset {
+    padding: 15px;
+  }
+
+  legend {
+    font-size: 1rem;
+    padding: 0 8px;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
+.close-button {
+  position: absolute; /* Position it inside the container */
+  top: 6rem;
+  right: 26rem;
+  background-color: transparent;
+  border: none;
+  font-size: 30px; /* Size of the cross */
+  color: black; /* Default color of the cross */
+  cursor: pointer;
+  z-index: 1000; /* Make sure it stays on top of other elements */
+  padding: 0; /* No padding, so the button size fits the cross */
+  width: auto; /* Make width fit the content (cross) */
+  height: auto; /* Make height fit the content (cross) */
+  line-height: 1; /* Align the cross perfectly */
+}
+
+.close-button:hover {
+  color: black; /* Keep the color black on hover */
+  background-color: transparent; /* No background color on hover */
+}
