@@ -1,1 +1,2 @@
-# Project_Sewa – A web-based platform that allows users to donate clothes to those in need. Donors can register, submit donation details, and track their contributions, while administrators can manage donation requests, approve donations, and monitor overall activity. The project promotes community support, sustainability, and easy management of clothes donations.
+# Project_Sewa –
+A web-based platform that allows users to donate clothes to those in need. Donors can register, submit donation details, and track their contributions, while administrators can manage donation requests, approve donations, and monitor overall activity. The project promotes community support, sustainability, and easy management of clothes donations.
